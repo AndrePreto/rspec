@@ -1,3 +1,5 @@
+#Every hook, variable, instance variable and helper methods present in this RSpec.shared_context are available
+#in every example group that have the keyword include_context
 RSpec.shared_context 'Shared Context' do
   before do
     @foods = []

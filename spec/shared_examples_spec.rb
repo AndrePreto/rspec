@@ -1,3 +1,5 @@
+#Tests present in this RSpec.shared_examples are run in every example group that has the keyword include_examples
+#In this case the test 'should have length of 3' is run in the Array, String, Hash and Test example groups
 RSpec.shared_examples 'Array, String, Hash, Test' do
   it 'should have length of 3' do
     expect(subject.length).to(eq(3))
